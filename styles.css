@@ -1,0 +1,90 @@
+
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #3f413d;
+  margin: 0;
+  padding: 0;
+}
+
+/* Define o estilo do container principal */
+.container {
+  background-image: linear-gradient(to left, #ff6662, #f98062, #ff9065);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Define o estilo da calculadora */
+.calculadora {
+  background-color: #eae4d3;
+  padding: 2vh 2vh 2vh 2vh;
+  border-radius: 1rem;
+  box-shadow: 0 10px 10px 0 #d35652;
+}
+
+/* Define o estilo do display da calculadora */
+#display {
+  background-color: #fdf8fd;
+  padding: 8px;
+  border-radius: 0.5rem;
+  text-align: right;
+  height: 5vh;
+  margin: 0.3rem;
+  font-size: 1.5rem;
+}
+
+#botoes{
+  display: flex;
+}
+
+/* Define o estilo dos botões da calculadora */
+.botoesCalculadora {
+  width: 5rem;
+  height: 4rem;
+  border: none;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+  background-color: #fef9ff;
+  box-shadow: 0 4px #cac5b6;
+  text-align: center;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+/* Estilo dos botões quando pressionados */
+.botoesCalculadora:active {
+  transform: translateY(0.1rem);
+  box-shadow: 0 2px #cac5b6;
+}
+
+/* Estilo específico para os botões de operadores */
+#limpar, #apagar, #divisao, #multiplicacao, #subtracao, #soma, #resultado {
+  background-color: #928686;
+  color: #fdfffc;
+}
+
+
+
+/* Estilo específico para o botão 0 */
+#num0 {
+  width: 10rem;
+ 
+}
+
+#resultado{
+  width: rem;
+  height: 9rem;
+}
+
+table{
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+
+}
